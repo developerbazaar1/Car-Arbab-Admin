@@ -155,6 +155,10 @@ div#main_form {
     font-size: 14px;
     font-weight: 400;
 }
+.brand_logo{
+    text-align: center;
+    margin-bottom: 25px;
+}
 .custom-file {
     position: relative;
     display: inline-block;
@@ -1045,6 +1049,10 @@ select#ampm {
     border-color: #4bad48;
     background-blend-mode: color-burn;
 }
+.end-step{
+    width: 50px !important;
+    border-radius: 12px !important;
+}
 
 /* -----media querry----- */
 
@@ -1310,7 +1318,7 @@ input::placeholder {
         background-color: #bdbdbd;
      }
      .wizard .nav-tabs > li {
-        width:77px;
+        width:60px;
         padding:0px;
     }
 }
@@ -1325,8 +1333,33 @@ input::placeholder {
 }
 label{
     display: inline-block;
-   }
+}
 
 input[type="time"]::-moz-datetime-edit-ampm-field {
     display: none;
+}
+
+/* -----------step 13-------- */
+.frunk-other {
+    display:none;
   }
+.rb-frunk-other:checked ~ .frunk-other {
+    display:inline;
+}
+.undercarriage-other {
+    display:none;
+  }
+.rb-undercarriage-other:checked ~ .undercarriage-other {
+    display:inline;
+}
+.hinge-other {
+    display:none;
+  }
+.rb-hinge-other:checked ~ .hinge-other {
+    display:inline;
+}.fenderliners-other {
+    display:none;
+  }
+.rb-fenderliners-other:checked ~ .fenderliners-other {
+    display:inline;
+}

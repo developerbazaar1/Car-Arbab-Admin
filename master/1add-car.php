@@ -46,8 +46,11 @@
                                     <div class="card-body">
                                         <div class="widget-stats-container d-flex">
                                             <div class="widget-stats-content flex-fill">
+                                                <div class="brand_logo">
+                                                <img class="" src="../assets/images/Car_Arbab.svg" alt="" width="100px">
+                                                </div>
                                                 <h5 class="text-center">Seller Terms of Service:</h5>
-                                                <p class="text-center pb-4">By signing below, you, the seller of the vehicle in this report indemnify BeSoji and the inspector against any liabilities including damages, costs, and charges made to the vehicle. You agree to indemnify BeSoji and the inspector of any incidents caused to the vehicle and/or public/3rd party property due to mechanical imperfections in the vehicle.</p>
+                                                <p class="text-center pb-4">By signing below, you, the seller of the vehicle in this report indemnify Car Arbab and the inspector against any liabilities including damages, costs, and charges made to the vehicle. You agree to indemnify Car Arbab and the inspector of any incidents caused to the vehicle and/or public/3rd party property due to mechanical imperfections in the vehicle.</p>
 
                                                 <div class="wizard mt-4">
                                                     <div class="wizard-inner">
@@ -91,7 +94,7 @@
                                                             </li>
 
                                                             <li role="presentation" class="disabled">
-                                                                <a href="#End" data-toggle="tab" aria-controls="End" role="tab"><span class="round-tab">End</span> </a>
+                                                                <a href="#End" data-toggle="tab" aria-controls="End" role="tab"><span class="round-tab end-step">End</span> </a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -3203,22 +3206,257 @@
                                                             </form>
                                                         </div>
 
+                                                        <!----------- 13/03/24 new steps for electric form ---------------->
+
                                                         <div class="tab-pane" role="tabpanel" id="step13">
                                                             <form action="">
-                                                                <h2 class="text-center">Vehicle Diagnostic Report</h2>
+                                                                <h2 class="text-center">Covers & Plastics</h2>
                                                                 <hr class="mt-5 mb-5">
-                                                                <div class="all-info-container">
+                                                                <div class="row all-info-container">
+                                                                <div class="col-md-7">
+                                                                    <div class="engine-upper">
+                                                                            <h6>Frunk Condition</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-frunk-pass" name="frunk" id="rb-frunk-pass" type="radio" checked />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-frunk-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-frunk-scratches" name="frunk" id="rb-frunk-scratches" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-frunk-scratches">Minor Scratches</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-frunk-major" name="frunk" id="rb-frunk-major" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-frunk-major">Major Scratches</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-frunk-cracked" name="frunk" id="rb-frunk-cracked" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-frunk-cracked">Cracked / Broken</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-frunk-components" name="frunk" id="rb-frunk-components" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-frunk-components">Missing Components</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-frunk-missing" name="frunk" id="rb-frunk-missing" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-frunk-missing">Missing</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-frunk-other" name="frunk" id="rb-frunk-other" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-frunk-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input frunk-other" id="frunk-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
 
-                                                                    <div class="col-md-12">
-                                                                        <div class="">
-                                                                            <label>Vehicle Diagnostic File Upload</label>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Frunk Condition Fault - Photo</label>
                                                                             <div class="form-group text-center cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
                                                                         </div>
                                                                     </div>
-                                                                    <hr class="mt-5">
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-7">
+                                                                     <div class="engine-upper">
+                                                                            <h6>Undercarriage Shield Cover</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-undercarriage-pass" name="undercarriage" id="rb-undercarriage-pass" type="radio" checked />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-undercarriage-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-undercarriage-scratches" name="undercarriage" id="rb-undercarriage-scratches" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-undercarriage-scratches">Minor Scratches</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-undercarriage-major" name="undercarriage" id="rb-undercarriage-major" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-undercarriage-major">Major Scratches</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-undercarriage-cracked" name="undercarriage" id="rb-undercarriage-cracked" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-undercarriage-cracked">Cracked / Broken</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-undercarriage-components" name="undercarriage" id="rb-undercarriage-components" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-undercarriage-components">Missing Components</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-undercarriage-missing" name="undercarriage" id="rb-undercarriage-missing" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-undercarriage-missing">Missing</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-undercarriage-other" name="undercarriage" id="rb-undercarriage-other" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-undercarriage-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input undercarriage-other" id="undercarriage-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Undercarriage Shield Cover Fault - Photo</label>
+                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-7">
+                                                                     <div class="engine-upper">
+                                                                            <h6>Bonnet Hinge & Holder</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-hinge-pass" name="hinge" id="rb-hinge-pass" type="radio" checked />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-hinge-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-hinge-missing" name="hinge" id="rb-hinge-missing" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-hinge-missing">Missing/Unavailable</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-hinge-smoothly" name="hinge" id="rb-hinge-smoothly" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-hinge-smoothly">Not opening smoothly, cable and/or lock needs to be repaired.</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-hinge-aftermarket" name="hinge" id="rb-hinge-aftermarket" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-hinge-aftermarket">Aftermarket</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-hinge-other" name="hinge" id="rb-hinge-other" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-hinge-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input hinge-other" id="hinge-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Bonnet Holder Fault - Photo</label>
+                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-7">
+                                                                        <div class="engine-upper">
+                                                                            <h6>Fender Liners</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-fenderliners-pass" name="fenderliners-preference" id="rb-fenderliners-pass" type="radio" checked />
+                                                                                <label class="form-check-label label" for="rb-fenderliners-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-fenderliners-scratched" name="fenderliners-preference" id="rb-fenderliners-scratched" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-fenderliners-scratched">Scratched</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-fenderliners-minor" name="fenderliners-preference" id="rb-fenderliners-minor" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-fenderliners-minor">Minor Damaged/Cracked</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-fenderliners-major" name="fenderliners-preference" id="rb-fenderliners-major" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-fenderliners-major">Major Damaged/Cracked</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-fenderliners-missing" name="fenderliners-preference" id="rb-fenderliners-missing" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-fenderliners-missing">Missing clips</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-fenderliners-liners" name="fenderliners-preference" id="rb-fenderliners-liners" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-fenderliners-liners">Liners missing</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-fenderliners-other" name="fenderliners-preference" id="rb-fenderliners-other" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-fenderliners-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input fenderliners-other" id="fenderliners-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Fender Liners Fault - Photo</label>
+                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-7">
+                                                                        <div class="radiatorinspection">
+                                                                            <h6>Radiator Inspection</h4>
+                                                                            <p></p>
+                                                                        </div>
+                                                                        <div class="engine-uppe radiator">
+                                                                            <h6>Radiator</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-radiator-pass" name="radiator-preference" id="rb-radiator-pass" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiator-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-radiator-external" name="radiator-preference" id="rb-radiator-external" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiator-external">Visible external damage</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-radiator-clogged" name="radiator-preference" id="rb-radiator-clogged" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiator-clogged">Symptoms of clogged radiator</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-radiator-hose" name="radiator-preference" id="rb-radiator-hose" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiator-hose">Hose(s) damaged, need to be replaced</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-radiator-clamps" name="radiator-preference" id="rb-radiator-clamps" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiator-clamps">Hose clamps missing</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-radiator-visible" name="radiator-preference" id="rb-radiator-visible" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiator-visible">Leakage visible</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-radiator-cap" name="radiator-preference" id="rb-radiator-cap" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiator-cap">Radiator cap damaged/broken</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-radiator-missing" name="radiator-preference" id="rb-radiator-missing" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiator-missing">Radiator cap missing</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-radiator-other" name="radiator-preference" id="rb-radiator-other" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiator-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input radiator-other" id="radiator-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Radiator Fault - Photo</label>
+                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
                                                                 </div>
 
                                                                 <ul class="list-inline pull-right">
@@ -3227,6 +3465,8 @@
                                                                 </ul>
                                                             </form>
                                                         </div>
+
+                                                        <!---------------- end new steps --------------->
 
                                                         <div class="tab-pane" role="tabpanel" id="End">
                                                           <form action="">
