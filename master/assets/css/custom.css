@@ -1363,3 +1363,48 @@ input[type="time"]::-moz-datetime-edit-ampm-field {
 .rb-fenderliners-other:checked ~ .fenderliners-other {
     display:inline;
 }
+.radiatorinspection h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.radiatorinspection p{
+    font-size: 16px;
+}
+.radiatorinspection-other { 
+    display:none;
+  }
+.rb-radiatorinspection-other:checked ~ .radiatorinspection-other {
+    display:inline;
+}
+.coolantelectric h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.coolantelectric p{
+    font-size: 16px;
+}
+.coolantcondition-other { 
+    display:none;
+  }
+.rb-coolantcondition-other:checked ~ .coolantcondition-other {
+    display:inline;
+}
+.coolantcap-other { 
+    display:none;
+  }
+.rb-coolantcap-other:checked ~ .coolantcap-other {
+    display:inline;
+}
+.hosespipes-other { 
+    display:none;
+  }
+.rb-hosespipes-other:checked ~ .hosespipes-other {
+    display:inline;
+}
+.visiblerust-other { 
+    display:none;
+  }
+.rb-visiblerust-other:checked ~ .visiblerust-other {
+    display:inline;
+}
+

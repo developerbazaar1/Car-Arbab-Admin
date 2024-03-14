@@ -92,6 +92,12 @@
                                                             <li role="presentation" class="disabled">
                                                                 <a href="#step13" data-toggle="tab" aria-controls="step11" role="tab"><span class="round-tab">13</span> </a>
                                                             </li>
+                                                            <li role="presentation" class="disabled">
+                                                                <a href="#step14" data-toggle="tab" aria-controls="step14" role="tab"><span class="round-tab">14</span> </a>
+                                                            </li>
+                                                            <li role="presentation" class="disabled">
+                                                                <a href="#step15" data-toggle="tab" aria-controls="step15" role="tab"><span class="round-tab">15</span> </a>
+                                                            </li>
 
                                                             <li role="presentation" class="disabled">
                                                                 <a href="#End" data-toggle="tab" aria-controls="End" role="tab"><span class="round-tab end-step">End</span> </a>
@@ -101,6 +107,9 @@
 
 
                                                     <div class="tab-content" id="main_form">
+
+                                                    <!----------- steps 1 form ---------------->
+
                                                         <div class="tab-pane active" role="tabpanel" id="step1">
 
                                                             <form action="/action_page.php" class="">
@@ -320,6 +329,8 @@
                                                             </form>
                                                         </div>
 
+                                                        <!----------- steps 2 form ---------------->
+
                                                         <div class="tab-pane" role="tabpanel" id="step2">
                                                             <form action="">
                                                                 <h2 class="text-center">Engine</h2>
@@ -330,7 +341,7 @@
                                                                             <h6>Engine Upper Cover</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-pass" name="engine-upper" id="rb-pass" type="radio" />
+                                                                                <input class="form-check-input rb-pass" name="engine-upper" id="rb-pass" type="radio" checked />
                                                                                 <label class="form-check-label label radio-btn-label" for="rb-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -378,7 +389,7 @@
                                                                             <h6>Engine Shield Cover</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-shield-pass" name="engine-shield_cover" id="rb-shield-pass" type="radio" />
+                                                                                <input class="form-check-input rb-shield-pass" name="engine-shield_cover" id="rb-shield-pass" type="radio" checked />
                                                                                 <label class="form-check-label label radio-btn-label" for="rb-shield-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -426,7 +437,7 @@
                                                                             <h6>Engine Mounts</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-mounts-pass" name="engine-mounts" id="rb-mounts-pass" type="radio" />
+                                                                                <input class="form-check-input rb-mounts-pass" name="engine-mounts" id="rb-mounts-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-mounts-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -466,7 +477,7 @@
                                                                             <h6>Bonnet Hinge & Holder</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-bonnet-pass" name="bonnet-hinge" id="rb-bonnet-pass" type="radio" />
+                                                                                <input class="form-check-input rb-bonnet-pass" name="bonnet-hinge" id="rb-bonnet-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-bonnet-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -506,7 +517,7 @@
                                                                             <h6>Turbo / Supercharger</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-turbo-pass" name="turbo-preference" id="rb-turbo-pass" type="radio" />
+                                                                                <input class="form-check-input rb-turbo-pass" name="turbo-preference" id="rb-turbo-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-turbo-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -554,7 +565,7 @@
                                                                             <h6>Fender Liners</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-fender-pass" name="fender-preference" id="rb-fender-pass" type="radio" />
+                                                                                <input class="form-check-input rb-fender-pass" name="fender-preference" id="rb-fender-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-fender-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -602,7 +613,7 @@
                                                                             <h6>Drive Belt / Pulleys</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-drive-pass" name="drive-preference" id="rb-drive-pass" type="radio" />
+                                                                                <input class="form-check-input rb-drive-pass" name="drive-preference" id="rb-drive-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-drive-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -646,7 +657,7 @@
                                                                             <h6>Engine Idle</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-engine-pass" name="engine-preference" id="rb-engine-pass" type="radio" />
+                                                                                <input class="form-check-input rb-engine-pass" name="engine-preference" id="rb-engine-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-engine-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -685,7 +696,7 @@
                                                                             <h6>Engine Oil Filler Cap</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-oil-pass" name="oil-preference" id="rb-oil-pass" type="radio" />
+                                                                                <input class="form-check-input rb-oil-pass" name="oil-preference" id="rb-oil-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-oil-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -721,7 +732,7 @@
                                                                             <h6>Radiator</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-pass" name="radiator-preference" id="rb-radiator-pass" type="radio" />
+                                                                                <input class="form-check-input rb-radiator-pass" name="radiator-preference" id="rb-radiator-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-radiator-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -777,7 +788,7 @@
                                                                             <h6>Engine Oil Leaks</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-leaks-pass" name="leaks-preference" id="rb-leaks-pass" type="radio" />
+                                                                                <input class="form-check-input rb-leaks-pass" name="leaks-preference" id="rb-leaks-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-leaks-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -837,7 +848,7 @@
                                                                             <h6>Engine Oil Condition</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-condition-pass" name="condition-preference" id="rb-condition-pass" type="radio" />
+                                                                                <input class="form-check-input rb-condition-pass" name="condition-preference" id="rb-condition-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-condition-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -889,7 +900,7 @@
                                                                             <h6>Coolant Condition</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-coolant-pass" name="coolant-preference" id="rb-coolant-pass" type="radio" />
+                                                                                <input class="form-check-input rb-coolant-pass" name="coolant-preference" id="rb-coolant-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-coolant-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -937,7 +948,7 @@
                                                                             <h6>Coolant Cap</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-cap-pass" name="cap-preference" id="rb-cap-pass" type="radio" />
+                                                                                <input class="form-check-input rb-cap-pass" name="cap-preference" id="rb-cap-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-cap-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -973,7 +984,7 @@
                                                                             <h6>Hoses & Pipes</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-pipes-pass" name="pipes-preference" id="rb-pipes-pass" type="radio" />
+                                                                                <input class="form-check-input rb-pipes-pass" name="pipes-preference" id="rb-pipes-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-pipes-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -1001,7 +1012,7 @@
                                                                             <h6>Exhaust System</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-exhaust-pass" name="exhaust-preference" id="rb-exhaust-pass" type="radio" />
+                                                                                <input class="form-check-input rb-exhaust-pass" name="exhaust-preference" id="rb-exhaust-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-exhaust-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -1053,7 +1064,7 @@
                                                                             <h6>Visible Rust</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-visible-pass" name="visible-preference" id="rb-visible-pass" type="radio" />
+                                                                                <input class="form-check-input rb-visible-pass" name="visible-preference" id="rb-visible-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-visible-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -1108,6 +1119,8 @@
                                                             </form>
                                                         </div>
 
+                                                        <!----------- steps 3 form ---------------->
+
                                                         <div class="tab-pane" role="tabpanel" id="step3">
                                                             <form action="">
                                                                 <h2 class="text-center">Transmission</h2>
@@ -1118,7 +1131,7 @@
                                                                             <h6>Fluid Level & Condition</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-fluid-pass" name="fluid-level" id="rb-fluid-pass" type="radio" />
+                                                                                <input class="form-check-input rb-fluid-pass" name="fluid-level" id="rb-fluid-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-fluid-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -1170,7 +1183,7 @@
                                                                             <h6>Transmission Fluid Leaks</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-transmission-pass" name="transmission-preference" id="rb-transmission-pass" type="radio" />
+                                                                                <input class="form-check-input rb-transmission-pass" name="transmission-preference" id="rb-transmission-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-transmission-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -1214,7 +1227,7 @@
                                                                             <h6>Gear Selector</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-gear-pass" name="gear-preference" id="rb-gear-pass" type="radio" />
+                                                                                <input class="form-check-input rb-gear-pass" name="gear-preference" id="rb-gear-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-gear-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -1262,7 +1275,7 @@
                                                                             <h6>Noise</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-noise-pass" name="noise-preference" id="rb-noise-pass" type="radio" />
+                                                                                <input class="form-check-input rb-noise-pass" name="noise-preference" id="rb-noise-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-noise-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -1281,7 +1294,7 @@
                                                                             <h6>Gear Shifting</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-shifting-pass" name="shifting-preference" id="rb-shifting-pass" type="radio" />
+                                                                                <input class="form-check-input rb-shifting-pass" name="shifting-preference" id="rb-shifting-pass" type="radio" checked />
                                                                                 <label class="form-check-label label" for="rb-shifting-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
@@ -1306,6 +1319,8 @@
                                                             </form>
                                                         </div>
 
+                                                        <!----------- steps 4 form ---------------->
+
                                                         <div class="tab-pane" role="tabpanel" id="step4">
                                                             <form action="">
                                                                 <h2 class="text-center">Brake System, Suspension & Tyres</h2>
@@ -1317,7 +1332,7 @@
                                                                                 <h6>Brake Pads Front</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-padsfront-pass" name="padsfront" id="rb-padsfront-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-padsfront-pass" name="padsfront" id="rb-padsfront-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-padsfront-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1338,7 +1353,7 @@
                                                                                 <h6>Brake Pads Rear</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-padsrear-pass" name="padsrear" id="rb-padsrear-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-padsrear-pass" name="padsrear" id="rb-padsrear-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-padsrear-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1361,7 +1376,7 @@
                                                                                 <h6>Brake Discs Front</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-discsfront-pass" name="discsfront" id="rb-discsfront-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-discsfront-pass" name="discsfront" id="rb-discsfront-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-discsfront-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1382,7 +1397,7 @@
                                                                                 <h6>Brake Discs Rear</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-discsrear-pass" name="discsrear" id="rb-discsrear-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-discsrear-pass" name="discsrear" id="rb-discsrear-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-discsrear-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1405,7 +1420,7 @@
                                                                                 <h6>ABS Sensors</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-sensors-pass" name="sensors" id="rb-sensors-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-sensors-pass" name="sensors" id="rb-sensors-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-sensors-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1426,7 +1441,7 @@
                                                                                 <h6>Handbrake</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-handbrake-pass" name="handbrake" id="rb-handbrake-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-handbrake-pass" name="handbrake" id="rb-handbrake-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-handbrake-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1449,7 +1464,7 @@
                                                                                 <h6>Front Suspension</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-suspension-pass" name="suspension" id="rb-suspension-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-suspension-pass" name="suspension" id="rb-suspension-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-suspension-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1481,7 +1496,7 @@
                                                                                 <h6>Rear Suspension</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-rearsuspension-pass" name="rearsuspension" id="rb-rearsuspension-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-rearsuspension-pass" name="rearsuspension" id="rb-rearsuspension-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-rearsuspension-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1665,6 +1680,8 @@
                                                             </form>
                                                         </div>
 
+                                                        <!----------- steps 5 form ---------------->
+
                                                         <div class="tab-pane" role="tabpanel" id="step5">
                                                             <form action="">
                                                                 <h2 class="text-center">Electrical System</h2>
@@ -1676,7 +1693,7 @@
                                                                                 <h6>Key Remote</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-remote-pass" name="remote" id="rb-remote-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-remote-pass" name="remote" id="rb-remote-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-remote-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1708,7 +1725,7 @@
                                                                                 <h6>Entertainment System</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-entertainment-pass" name="entertainment" id="rb-entertainment-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-entertainment-pass" name="entertainment" id="rb-entertainment-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-entertainment-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1736,7 +1753,7 @@
                                                                                 <h6>Windows Operation</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-windows-pass" name="windows" id="rb-windows-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-windows-pass" name="windows" id="rb-windows-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-windows-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1768,7 +1785,7 @@
                                                                                 <h6>Seats Adjustment (Power/Manual)</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-adjustment-pass" name="adjustment" id="rb-adjustment-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-adjustment-pass" name="adjustment" id="rb-adjustment-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-adjustment-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1800,7 +1817,7 @@
                                                                                 <h6>Door Lock / Unlock</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-door-pass" name="door" id="rb-door-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-door-pass" name="door" id="rb-door-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-door-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1828,7 +1845,7 @@
                                                                                 <h6>A/C Control & Cooling</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-ac-pass" name="ac" id="rb-ac-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-ac-pass" name="ac" id="rb-ac-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-ac-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1856,7 +1873,7 @@
                                                                                 <h6>Center Console Buttons</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-center-pass" name="center" id="rb-center-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-center-pass" name="center" id="rb-center-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-center-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1884,7 +1901,7 @@
                                                                                 <h6>Cameras</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-cameras-pass" name="cameras" id="rb-cameras-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-cameras-pass" name="cameras" id="rb-cameras-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-cameras-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1916,7 +1933,7 @@
                                                                                 <h6>Gauges</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-gauges-pass" name="gauges" id="rb-gauges-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-gauges-pass" name="gauges" id="rb-gauges-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-gauges-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1944,7 +1961,7 @@
                                                                                 <h6>Rear View / Side Mirror Electricals</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-mirror-pass" name="mirror" id="rb-mirror-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-mirror-pass" name="mirror" id="rb-mirror-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-mirror-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -1972,7 +1989,7 @@
                                                                                 <h6>A/C Grilles</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-grilles-pass" name="grilles" id="rb-grilles-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-grilles-pass" name="grilles" id="rb-grilles-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-grilles-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2000,7 +2017,7 @@
                                                                                 <h6>Starting & Ignition System</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-ignition-pass" name="ignition" id="rb-ignition-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-ignition-pass" name="ignition" id="rb-ignition-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-ignition-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2028,7 +2045,7 @@
                                                                                 <h6>Brake Lights</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-brake-pass" name="brake" id="rb-brake-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-brake-pass" name="brake" id="rb-brake-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-brake-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2056,7 +2073,7 @@
                                                                                 <h6>Headlights</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-headlights-pass" name="headlights" id="rb-headlights-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-headlights-pass" name="headlights" id="rb-headlights-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-headlights-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2084,7 +2101,7 @@
                                                                                 <h6>Fog Lights</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-fog-pass" name="fog" id="rb-fog-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-fog-pass" name="fog" id="rb-fog-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-fog-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2116,7 +2133,7 @@
                                                                                 <h6>Reverse Lights</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-reverse-pass" name="reverse" id="rb-reverse-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-reverse-pass" name="reverse" id="rb-reverse-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-reverse-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2148,7 +2165,7 @@
                                                                                 <h6>High Beams</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-beams-pass" name="beams" id="rb-beams-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-beams-pass" name="beams" id="rb-beams-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-beams-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2180,7 +2197,7 @@
                                                                                 <h6>Number Plate Lights</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-plate-pass" name="plate" id="rb-plate-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-plate-pass" name="plate" id="rb-plate-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-plate-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2212,7 +2229,7 @@
                                                                                 <h6>Indicators & Hazards</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-hazards-pass" name="hazards" id="rb-hazards-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-hazards-pass" name="hazards" id="rb-hazards-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-hazards-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2244,7 +2261,7 @@
                                                                                 <h6>Wipers</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-wipers-pass" name="wipers" id="rb-wipers-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-wipers-pass" name="wipers" id="rb-wipers-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-wipers-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2276,7 +2293,7 @@
                                                                                 <h6>Soft Closing Doors</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-closing-pass" name="closing" id="rb-closing-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-closing-pass" name="closing" id="rb-closing-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-closing-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2308,7 +2325,7 @@
                                                                                 <h6>Sunroof / Moonroof</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-sunroof-pass" name="sunroof" id="rb-sunroof-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-sunroof-pass" name="sunroof" id="rb-sunroof-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-sunroof-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2340,7 +2357,7 @@
                                                                                 <h6>Interior Lights</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-interior-pass" name="interior" id="rb-interior-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-interior-pass" name="interior" id="rb-interior-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-interior-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2372,7 +2389,7 @@
                                                                                 <h6>Cruise Control</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-cruise-pass" name="cruise" id="rb-cruise-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-cruise-pass" name="cruise" id="rb-cruise-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-cruise-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2404,7 +2421,7 @@
                                                                                 <h6>Horn</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-horn-pass" name="horn" id="rb-horn-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-horn-pass" name="horn" id="rb-horn-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-horn-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2425,7 +2442,7 @@
                                                                                 <h6>Parking Sensors Fault</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-parking-pass" name="parking" id="rb-parking-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-parking-pass" name="parking" id="rb-parking-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-parking-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2454,6 +2471,8 @@
                                                             </form>
                                                         </div>
 
+                                                        <!----------- steps 6 form ---------------->
+
                                                         <div class="tab-pane" role="tabpanel" id="step6">
                                                             <form action="">
                                                                 <h2 class="text-center">Interior</h2>
@@ -2465,7 +2484,7 @@
                                                                                 <h6>Roof Lining</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-lining-pass" name="lining" id="rb-lining-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-lining-pass" name="lining" id="rb-lining-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-lining-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2497,7 +2516,7 @@
                                                                                 <h6>Rear View Mirror</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-rearview-pass" name="rearview" id="rb-rearview-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-rearview-pass" name="rearview" id="rb-rearview-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-rearview-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2529,7 +2548,7 @@
                                                                                 <h6>Steering Wheel Upholstery</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-steering-pass" name="steering" id="rb-steering-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-steering-pass" name="steering" id="rb-steering-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-steering-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2561,7 +2580,7 @@
                                                                                 <h6>Seats Upholstery</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-upholstery-pass" name="upholstery" id="rb-upholstery-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-upholstery-pass" name="upholstery" id="rb-upholstery-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-upholstery-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2593,7 +2612,7 @@
                                                                                 <h6>Gear Lever</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-lever-pass" name="lever" id="rb-lever-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-lever-pass" name="lever" id="rb-lever-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-lever-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2625,7 +2644,7 @@
                                                                                 <h6>Trunk Lining</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-trunk-pass" name="trunk" id="rb-trunk-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-trunk-pass" name="trunk" id="rb-trunk-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-trunk-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2657,7 +2676,7 @@
                                                                                 <h6>Armrest & Side Pockets</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-armrest-pass" name="armrest" id="rb-armrest-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-armrest-pass" name="armrest" id="rb-armrest-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-armrest-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2689,7 +2708,7 @@
                                                                                 <h6>Dashboard</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-dashboard-pass" name="dashboard" id="rb-dashboard-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-dashboard-pass" name="dashboard" id="rb-dashboard-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-dashboard-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2721,7 +2740,7 @@
                                                                                 <h6>Floor Mats</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-mats-pass" name="mats" id="rb-mats-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-mats-pass" name="mats" id="rb-mats-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-mats-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2753,7 +2772,7 @@
                                                                                 <h6>Doors</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-doorsfault-pass" name="doorsfault" id="rb-doorsfault-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-doorsfault-pass" name="doorsfault" id="rb-doorsfault-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-doorsfault-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2785,7 +2804,7 @@
                                                                                 <h6>Front Windscreen</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-windscreen-pass" name="windscreen" id="rb-windscreen-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-windscreen-pass" name="windscreen" id="rb-windscreen-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-windscreen-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2817,7 +2836,7 @@
                                                                                 <h6>Rear Windscreen</h6>
                                                                                 <br>
                                                                                 <div class="form-check">
-                                                                                    <input class="form-check-input rb-rearwindscreen-pass" name="rearwindscreen" id="rb-rearwindscreen-pass" type="radio" />
+                                                                                    <input class="form-check-input rb-rearwindscreen-pass" name="rearwindscreen" id="rb-rearwindscreen-pass" type="radio" checked />
                                                                                     <label class="form-check-label label" for="rb-rearwindscreen-pass">Pass</label>
                                                                                 </div>
                                                                                 <div class="form-check">
@@ -2854,6 +2873,8 @@
                                                                 </ul>
                                                             </form>
                                                         </div>
+
+                                                        <!----------- steps 7 form ---------------->
 
                                                         <div class="tab-pane" role="tabpanel" id="step7">
                                                             <form action="">
@@ -3106,6 +3127,8 @@
                                                             </form>
                                                         </div>
 
+                                                        <!----------- steps 8 form ---------------->
+
                                                         <div class="tab-pane" role="tabpanel" id="step8">
                                                             <form action="">
                                                                 <h2 class="text-center">Exterior Photos</h2>
@@ -3130,6 +3153,8 @@
                                                                 </ul>
                                                             </form>
                                                         </div>
+
+                                                        <!----------- steps 9 form ---------------->
 
                                                         <div class="tab-pane" role="tabpanel" id="step9">
                                                             <form action="">
@@ -3156,6 +3181,8 @@
                                                             </form>
                                                         </div>
 
+                                                        <!----------- steps 10 form ---------------->
+
                                                         <div class="tab-pane" role="tabpanel" id="step10">
                                                             <form action="">
                                                                 <h2 class="text-center">Engine Bay & Undercarriage</h2>
@@ -3180,6 +3207,8 @@
                                                                 </ul>
                                                             </form>
                                                         </div>
+
+                                                        <!----------- steps 11 form ---------------->
 
                                                         <div class="tab-pane" role="tabpanel" id="step11">
                                                             <form action="">
@@ -3208,12 +3237,14 @@
 
                                                         <!----------- 13/03/24 new steps for electric form ---------------->
 
+                                                        <!----------- steps 13 for electric form ---------------->
+
                                                         <div class="tab-pane" role="tabpanel" id="step13">
                                                             <form action="">
                                                                 <h2 class="text-center">Covers & Plastics</h2>
                                                                 <hr class="mt-5 mb-5">
                                                                 <div class="row all-info-container">
-                                                                <div class="col-md-7">
+                                                                 <div class="col-md-7">
                                                                     <div class="engine-upper">
                                                                             <h6>Frunk Condition</h6>
                                                                             <br>
@@ -3398,51 +3429,53 @@
                                                                     </div>
                                                                     <hr class="mt-5 mb-5">
 
-                                                                    <div class="col-md-7">
-                                                                        <div class="radiatorinspection">
+                                                                    <div class="col-md-12 radiatorinspection mb-5">
                                                                             <h6>Radiator Inspection</h4>
-                                                                            <p></p>
-                                                                        </div>
-                                                                        <div class="engine-uppe radiator">
+                                                                            <p>Check for Leaks: Visually inspect for any signs of coolant leaks in the vehicle's parking area or under the chassis. Coolant leaks could indicate issues with the cooling system's hoses, connections, or the radiator itself.</p>
+                                                                            <p>Inspect Hoses and Connections: Look at the coolant hoses and connections for signs of wear, damage, or corrosion. Make sure all connections are secure.</p>
+                                                                    </div>
+
+                                                                    <div class="col-md-7">
+                                                                       <div class="engine-uppe radiator">
                                                                             <h6>Radiator</h6>
                                                                             <br>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-pass" name="radiator-preference" id="rb-radiator-pass" type="radio" />
-                                                                                <label class="form-check-label label" for="rb-radiator-pass">Pass</label>
+                                                                                <input class="form-check-input rb-radiatorinspection-pass" name="radiatorinspection-preference" id="rb-radiatorinspection-pass" type="radio" checked />
+                                                                                <label class="form-check-label label" for="rb-radiatorinspection-pass">Pass</label>
                                                                             </div>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-external" name="radiator-preference" id="rb-radiator-external" type="radio" />
-                                                                                <label class="form-check-label label" for="rb-radiator-external">Visible external damage</label>
+                                                                                <input class="form-check-input rb-radiatorinspection-external" name="radiatorinspection-preference" id="rb-radiatorinspection-external" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiatorinspection-external">Visible external damage</label>
                                                                             </div>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-clogged" name="radiator-preference" id="rb-radiator-clogged" type="radio" />
-                                                                                <label class="form-check-label label" for="rb-radiator-clogged">Symptoms of clogged radiator</label>
+                                                                                <input class="form-check-input rb-radiatorinspection-clogged" name="radiatorinspection-preference" id="rb-radiatorinspection-clogged" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiatorinspection-clogged">Symptoms of clogged radiator</label>
                                                                             </div>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-hose" name="radiator-preference" id="rb-radiator-hose" type="radio" />
-                                                                                <label class="form-check-label label" for="rb-radiator-hose">Hose(s) damaged, need to be replaced</label>
+                                                                                <input class="form-check-input rb-radiatorinspection-hose" name="radiatorinspection-preference" id="rb-radiatorinspection-hose" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiatorinspection-hose">Hose(s) damaged, need to be replaced</label>
                                                                             </div>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-clamps" name="radiator-preference" id="rb-radiator-clamps" type="radio" />
-                                                                                <label class="form-check-label label" for="rb-radiator-clamps">Hose clamps missing</label>
+                                                                                <input class="form-check-input rb-radiatorinspection-clamps" name="radiatorinspection-preference" id="rb-radiatorinspection-clamps" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiatorinspection-clamps">Hose clamps missing</label>
                                                                             </div>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-visible" name="radiator-preference" id="rb-radiator-visible" type="radio" />
-                                                                                <label class="form-check-label label" for="rb-radiator-visible">Leakage visible</label>
+                                                                                <input class="form-check-input rb-radiatorinspection-visible" name="radiatorinspection-preference" id="rb-radiatorinspection-visible" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiatorinspection-visible">Leakage visible</label>
                                                                             </div>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-cap" name="radiator-preference" id="rb-radiator-cap" type="radio" />
-                                                                                <label class="form-check-label label" for="rb-radiator-cap">Radiator cap damaged/broken</label>
+                                                                                <input class="form-check-input rb-radiatorinspection-cap" name="radiatorinspection-preference" id="rb-radiatorinspection-cap" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiatorinspection-cap">Radiator cap damaged/broken</label>
                                                                             </div>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-missing" name="radiator-preference" id="rb-radiator-missing" type="radio" />
-                                                                                <label class="form-check-label label" for="rb-radiator-missing">Radiator cap missing</label>
+                                                                                <input class="form-check-input rb-radiatorinspection-missing" name="radiatorinspection-preference" id="rb-radiatorinspection-missing" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiatorinspection-missing">Radiator cap missing</label>
                                                                             </div>
                                                                             <div class="form-check">
-                                                                                <input class="form-check-input rb-radiator-other" name="radiator-preference" id="rb-radiator-other" type="radio" />
-                                                                                <label class="form-check-label label" for="rb-radiator-other">Other</label>
+                                                                                <input class="form-check-input rb-radiatorinspection-other" name="radiatorinspection-preference" id="rb-radiatorinspection-other" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-radiatorinspection-other">Other</label>
                                                                                 <br>
-                                                                                <input class="cstm-form_input radiator-other" id="radiator-other" placeholder="Please type another option here" type="text" />
+                                                                                <input class="cstm-form_input radiatorinspection-other" id="radiatorinspection-other" placeholder="Please type another option here" type="text" />
                                                                             </div>
 
                                                                         </div>
@@ -3457,6 +3490,185 @@
                                                                         </div>
                                                                     </div>
                                                                     <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-12 coolantelectric mb-3">
+                                                                            <h6>Coolant Level and Condition</h4>
+                                                                            <p>Check Coolant Level: Ensure the coolant reservoir is at the proper level. Low coolant levels might suggest a leak or that the system needs servicing.Examine Coolant Condition: If possible, check the condition of the coolant. It should be clean and free of debris. Contaminated coolant can reduce the efficiency of the cooling system.</p>
+                                                                            
+                                                                    </div>
+                                                                    <div class="col-md-12 coolantelectric mb-5">
+                                                                            <h6>System Operation</h4>
+                                                                            <p>Monitor Temperature Gauges: While driving, keep an eye on any temperature gauges or warnings on the dashboard. Overheating warnings can indicate a malfunctioning cooling system.Listen for Pump Operation: In liquid-cooled systems, the coolant is circulated by electric pumps. Listen for the operation of these pumps to ensure they are working correctly.</p>
+                                                                            
+                                                                    </div>
+                                                                    <div class="col-md-7">
+                                                                        <div class="engine-upper coolant-condition">
+                                                                            <h6>Coolant Condition</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcondition-pass" name="coolantcondition-preference" id="rb-coolantcondition-pass" type="radio" checked />
+                                                                                <label class="form-check-label label" for="rb-coolantcondition-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcondition-topped" name="coolantcondition-preference" id="rb-coolantcondition-topped" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-coolantcondition-topped">Needs to be topped up</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcondition-flushed" name="coolantcondition-preference" id="rb-coolantcondition-flushed" type="radio" />
+                                                                                <label class="form-check-label label label-coolantcondition" for="rb-coolantcondition-flushed">Needs to be flushed (Looks colorless/rusty)</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcondition-surface" name="coolantcondition-preference" id="rb-coolantcondition-surface" type="radio" />
+                                                                                <label class="form-check-label label label-coolantcondition" for="rb-coolantcondition-surface">Looks sludgy/oil surface (Might be head gasket leakage)</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcondition-bulgy" name="coolantcondition-preference" id="rb-coolantcondition-bulgy" type="radio" />
+                                                                                <label class="form-check-label label label-cstm" for="rb-coolantcondition-bulgy">Coolant hose needs to be replaced (Leaking/cracked/bulgy)</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcondition-filler" name="coolantcondition-preference" id="rb-coolantcondition-filler" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-coolantcondition-filler">Oil filler cap damaged/broken</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcondition-other" name="coolantcondition-preference" id="rb-coolantcondition-other" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-coolantcondition-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input coolantcondition-other" id="coolantcondition-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Coolant Condition Fault - Photo</label>
+                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-7">
+                                                                        <div class="engine-upper">
+                                                                            <h6>Coolant Cap</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcap-pass" name="coolantcap-preference" id="rb-coolantcap-pass" type="radio" checked />
+                                                                                <label class="form-check-label label" for="rb-coolantcap-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcap-missing" name="coolantcap-preference" id="rb-coolantcap-missing" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-coolantcap-missing">Filler cap missing</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcap-broken" name="coolantcap-preference" id="rb-coolantcap-broken" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-coolantcap-broken">Filler cap damaged/broken</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-coolantcap-other" name="coolantcap-preference" id="rb-coolantcap-other" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-coolantcap-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input coolantcap-other" id="coolantcap-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Coolant Cap Fault - Photo</label>
+                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-7">
+                                                                        <div class="engine-upper">
+                                                                            <h6>Hoses & Pipes</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-hosespipes-pass" name="hosespipes-preference" id="rb-hosespipes-pass" type="radio" checked />
+                                                                                <label class="form-check-label label" for="rb-hosespipes-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-hosespipes-other" name="hosespipes-preference" id="rb-hosespipes-other" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-hosespipes-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input hosespipes-other" id="hosespipes-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Hose Damage Fault - Photo</label>
+                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-7">
+                                                                        <div class="engine-upper">
+                                                                            <h6>Visible Rust</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-visiblerust-pass" name="visiblerust-preference" id="rb-visiblerust-pass" type="radio" checked />
+                                                                                <label class="form-check-label label" for="rb-visiblerust-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-visiblerust-other" name="visiblerust-preference" id="rb-visiblerust-other" type="radio" />
+                                                                                <label class="form-check-label label" for="rb-visiblerust-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input visiblerust-other" id="visiblerust-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Visible Rust Fault - Photo</label>
+                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+
+                                                                </div>
+
+                                                                <ul class="list-inline pull-right">
+                                                                    <li><button type="button" class="default-btn prev-step">Back</button></li>
+                                                                    <li><button type="button" class="default-btn next-step">Continue</button></li>
+                                                                </ul>
+                                                            </form>
+                                                        </div>
+
+                                                        <!----------- steps 15 form ---------------->
+
+                                                        <div class="tab-pane" role="tabpanel" id="step15">
+                                                            <form action="">
+                                                                <h2 class="text-center">Frunk & Trunk</h2>
+                                                                <hr class="mt-5 mb-5">
+                                                                <div class="all-info-container">
+
+                                                                    <div class="col-md-12">
+                                                                        <div class="">
+                                                                            <label>Frunk & Trunk Images</label>
+                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5">
                                                                 </div>
 
                                                                 <ul class="list-inline pull-right">
@@ -3467,6 +3679,9 @@
                                                         </div>
 
                                                         <!---------------- end new steps --------------->
+
+
+                                                        <!----------- step end form ---------------->
 
                                                         <div class="tab-pane" role="tabpanel" id="End">
                                                           <form action="">
