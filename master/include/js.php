@@ -10,6 +10,21 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://jeremyfagis.github.io/dropify/dist/js/dropify.min.js"></script>
+
     <script>
      $('.dropify').dropify();
-    </script> 
+    </script>
+    <script>
+					jQuery(document).ready(function($){
+    
+    var canvas = document.getElementById("signature");
+    var signaturePad = new SignaturePad(canvas);
+    
+    $('#clear-signature').on('click', function(){
+        signaturePad.clear();
+    });
+    
+});
+				</script>
+<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js"></script>

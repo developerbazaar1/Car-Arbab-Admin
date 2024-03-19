@@ -377,7 +377,7 @@ canvas {
 	overflow: hidden;
   display: flex;
 }
-.btn-green {
+.cstm_signature .btn-green {
 	background: #0db02b;
     text-decoration: none;
 	color: #fff;
@@ -439,11 +439,12 @@ canvas {
   }
 .cstm-file-upload input{
 width: 100%;
-    height: 142px;
+    height: 240px;
     /* margin: 0 auto; */
     border: 2px dashed #bdbdbd;
     padding: 50px 0px;
     text-align-last: center;
+    opacity: 0;
 }
 .customer-form h6{
     font-size: 20px;
@@ -457,7 +458,7 @@ width: 100%;
     width: 100%;
 }
 .cstm-time input{
-    width: 60%;
+    width: 100%;
 }
 select#ampm {
     padding: 8px;
@@ -1057,6 +1058,14 @@ select#ampm {
 /* -----media querry----- */
 
 @media screen and (max-width: 360px){
+    /* canvas {
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        cursor: pointer;
+    } */
+  .app-container{
+        padding: 0px;
+    }
  .widget-stats-container.d-flex {
         display: block !important;
  }
@@ -1408,3 +1417,134 @@ input[type="time"]::-moz-datetime-edit-ampm-field {
     display:inline;
 }
 
+/* ------step14----- */
+.battery_list li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: pre-wrap;
+    padding-bottom: 10px;
+}
+.battery_list{
+    padding-left: 0px;
+}
+.battery_condition p{
+    font-size: 16px;
+}
+.chargingport-other { 
+    display:none;
+  }
+.rb-chargingport-other:checked ~ .chargingport-other {
+    display:inline;
+}
+.chargingfeature-other { 
+    display:none;
+}
+.rb-chargingfeature-other:checked ~ .chargingfeature-other {
+    display:inline;
+}
+.electric_motor h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.electric_motor p{
+    font-size: 16px;
+}
+.electricmotor-other { 
+    display:none;
+}
+.rb-electricmotor-other:checked ~ .electricmotor-other {
+    display:inline;
+}
+
+/* -------battery conditon------ */
+.range {
+	border-radius: 50%;
+	display: table;
+	height: 186px;
+	position: relative;
+	width: 186px;
+}
+.range input {
+	opacity: 0;
+	position: absolute;
+}
+.range .dial {
+	background-color: #FFF;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	height: 30px;
+	margin-left: -16px;
+	position: absolute;
+	top: -11px;
+	transform: translateX(93px) translateY(5px);
+	width: 30px;
+	z-index: 40;
+}
+.range .dial:focus {
+	outline: 0;
+}
+.range .info {
+	background-color: #FFF;
+	border-radius: 50%;
+	bottom: 15px;
+	color: #333;
+	cursor: default;
+	display: table-cell;
+	font: 400 16px/1.1 'Roboto', sans-serif;
+	left: 15px;
+	padding-top: 25%;
+	position: absolute;
+	right: 15px;
+	text-align: center;
+	top: 15px;
+	user-select: none;
+	text-transform: uppercase;
+	z-index: 30;
+    font-size: 30px;
+}
+.range .count {
+	color: #0db02b;
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+}
+.slice {
+	border-radius: 186px 0 0 186px;
+	background-color: #0db02b;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	user-select: none;
+	width: 50%;
+	z-index: 10;
+}
+.slice.right {
+	border-radius: 0 186px 186px 0;
+	right: 0;
+}
+.slice.right .blocker {
+	left: 0;
+	right: auto;
+	transform-origin: 0 25%;
+}
+.slice .blocker {
+	background-color: #eee;
+	height: 200%;
+	position: absolute;
+	right: 0;
+	transform-origin: 100% 25%;
+	width: 200%;
+}
+.battery_range {
+    /* text-align: -webkit-center; */
+    margin-top: 50px;
+}
+.image_upload{
+    background: url('../images/file-upload.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: auto; */
+    border: 2px dashed #0db02b52;
+}

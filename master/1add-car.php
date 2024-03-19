@@ -74,9 +74,9 @@
                                                             <li role="presentation" class="disabled">
                                                                 <a href="#step6" data-toggle="tab" aria-controls="step6" role="tab"><span class="round-tab">6</span> </a>
                                                             </li>
-                                                            <li role="presentation" class="disabled">
+                                                            <!-- <li role="presentation" class="disabled">
                                                                 <a href="#step7" data-toggle="tab" aria-controls="step7" role="tab"><span class="round-tab">7</span> </a>
-                                                            </li>
+                                                            </li> -->
                                                             <li role="presentation" class="disabled">
                                                                 <a href="#step8" data-toggle="tab" aria-controls="step8" role="tab"><span class="round-tab">8</span> </a>
                                                             </li>
@@ -145,7 +145,7 @@
                                                                     </div>
                                                                     <!--------- image upload --------->
                                                                     <div class="col-md-12 mt-5 mb-4">
-                                                                        <div class="form-group text-center cstm-file-upload">
+                                                                        <div class="form-group text-center image_upload cstm-file-upload">
                                                                             <!-- <img src="../assets/images/cloud-computing.png" alt=""><br> -->
                                                                             <input type="file" class="cstm-file-upload" name="images[]" multiple id="upload-img" />
                                                                         </div>
@@ -173,10 +173,11 @@
                                                                                 </div>
                                                                                 <div class="col cstm-time">
                                                                                     <input class="cstm-form_input" type="time" id="time" name="time">
-                                                                                    <select id="ampm" name="ampm">
+                                                                                    <!-- <select id="ampm" name="ampm">
                                                                                         <option value="am">AM</option>
                                                                                         <option value="pm">PM</option>
-                                                                                    </select><br>
+                                                                                    </select> -->
+                                                                                    <br>
                                                                                     <span>Hours Minutes</span>
                                                                                 </div>
                                                                             </div>
@@ -201,6 +202,7 @@
                                                                                             <option value="ASTON MARTIN">ASTON MARTIN</option>
                                                                                             <option value="AUDI">AUDI</option>
                                                                                             <option value="BENTLEY">BENTLEY</option>
+                                                                                            <option value="Couldn’t Inspect">Couldn’t Inspect</option>
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
@@ -220,11 +222,16 @@
                                                                                         </label>
                                                                                         <select id="cars" name="cars">
                                                                                             <option value="" selected>Please Select</option>
+                                                                                            <option value="2-Cylinder">2-Cylinder</option>
                                                                                             <option value="4-Cylinder">4-Cylinder</option>
                                                                                             <option value="6-Cylinder">6-Cylinder</option>
                                                                                             <option value="8-Cylinder">8-Cylinder</option>
                                                                                             <option value="10-Cylinder">10-Cylinder</option>
                                                                                             <option value="12-Cylinder">12-Cylinder</option>
+                                                                                            <option value="14-Cylinder">14-Cylinder</option>
+                                                                                            <option value="16-Cylinder">16-Cylinder</option>
+                                                                                            <option value="na">N/A</option>
+                                                                                            <option value="Couldn’t Inspect">Couldn’t Inspect</option>
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
@@ -241,6 +248,7 @@
                                                                                             <option value="Canadian">Canadian</option>
                                                                                             <option value="European">European</option>
                                                                                             <option value="Japanese">Japanese</option>
+                                                                                            <option value="Couldn’t Inspect">Couldn’t Inspect</option>
                                                                                             <option value="Other">Other</option>
                                                                                         </select>
                                                                                     </div>
@@ -259,6 +267,7 @@
                                                                                             <option value="Manual">Manual</option>
                                                                                             <option value="Automatic">Automatic</option>
                                                                                             <option value="Electric">Electric</option>
+                                                                                            <option value="Couldn’t Inspect">Couldn’t Inspect</option>
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
@@ -270,6 +279,7 @@
                                                                                             <option value="Petrol">Petrol</option>
                                                                                             <option value="Diesel">Diesel</option>
                                                                                             <option value="Electric">Electric</option>
+                                                                                            <option value="Couldn’t Inspect">Couldn’t Inspect</option>
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
@@ -283,6 +293,7 @@
                                                                                             <option value="Leather">Leather</option>
                                                                                             <option value="Fabric">Fabric</option>
                                                                                             <option value="Suede">Suede</option>
+                                                                                            <option value="Couldn’t Inspect">Couldn’t Inspect</option>
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
@@ -301,6 +312,7 @@
                                                                                             <option value="1">1</option>
                                                                                             <option value="2">2</option>
                                                                                             <option value="3">3</option>
+                                                                                            <option value="Couldn’t Inspect">Couldn’t Inspect</option>
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
@@ -311,6 +323,7 @@
                                                                                             <option value="" selected>Please Select</option>
                                                                                             <option value="Available">Available</option>
                                                                                             <option value="Not Available">Not Available</option>
+                                                                                            <option value="Couldn’t Inspect">Couldn’t Inspect</option>
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
@@ -374,9 +387,9 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-md-5">
-                                                                        <div class="fault-photo">
+                                                                        <div class="fault-photo ">
                                                                             <label>Engine Upper Cover Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -422,9 +435,9 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-md-5">
-                                                                        <div class="fault-photo">
+                                                                        <div class="fault-photo ">
                                                                             <label>Engine Shield Cover Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -464,7 +477,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Engine Mounts Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -504,7 +517,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Bonnet Holder Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -552,7 +565,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Turbo/Supercharger Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -600,7 +613,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Fender Liners Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -644,7 +657,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Drive Belt / Pulleys Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -719,7 +732,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Engine Oil Filler Cap Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -775,7 +788,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Radiator Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -835,7 +848,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Engine Oil Leak Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -887,7 +900,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Engine Oil Condition Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -935,7 +948,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Coolant Condition Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -971,7 +984,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Coolant Cap Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -999,7 +1012,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Hose Damage Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1051,7 +1064,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Exhaust Leak Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1079,7 +1092,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Visible Rust Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1170,7 +1183,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Fluid Level & Condition - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1214,7 +1227,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Transmission Fluid Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1262,7 +1275,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Gear Selector Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1483,7 +1496,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Front Suspension Fault - Photo</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1515,7 +1528,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Front Suspension Fault - Photo</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1582,7 +1595,7 @@
                                                                         <div class="col-md-12">
                                                                             <div class="">
                                                                                 <label>Front Left Tyre</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1593,7 +1606,7 @@
                                                                         <div class="col-md-12">
                                                                             <div class="">
                                                                                 <label>Rear Left Tyre</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1604,7 +1617,7 @@
                                                                         <div class="col-md-12">
                                                                             <div class="">
                                                                                 <label>Rear Right Tyre</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1615,7 +1628,7 @@
                                                                         <div class="col-md-12">
                                                                             <div class="">
                                                                                 <label>Front Right Tyre</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1712,7 +1725,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Key Remote Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1740,7 +1753,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Entertainment System Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1772,7 +1785,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Windows Operation Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1804,7 +1817,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Seat Adjustment Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1832,7 +1845,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Door Lock / Unlock Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1860,7 +1873,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>A/C Control & Cooling Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1888,7 +1901,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Center Console Buttons Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1920,7 +1933,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Cameras Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1948,7 +1961,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Gauges Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -1976,7 +1989,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Rear View/ Side Mirror Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2004,7 +2017,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>A/C Grilles Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2032,7 +2045,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Starting & Ignition System Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2060,7 +2073,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Brake Lights Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2088,7 +2101,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Headlights Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2120,7 +2133,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Fog Lights Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2152,7 +2165,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Reverse Lights Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2184,7 +2197,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>High Beams Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2216,7 +2229,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Number Plate Lights Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2248,7 +2261,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Indicators & Hazards Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2280,7 +2293,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Wipers Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2312,7 +2325,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Soft Closing Doors Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2344,7 +2357,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Sunroof/Moonroof Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2376,7 +2389,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Interior Lights Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2408,7 +2421,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Cruise Control Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2503,7 +2516,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Roof Lining Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2535,7 +2548,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Rear View Mirror Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2567,7 +2580,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Steering Wheel Upholstery Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2599,7 +2612,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Seats Upholstery Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2631,7 +2644,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Gear Lever Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2663,7 +2676,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Trunk Lining Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2695,7 +2708,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Armrest & Side Pockets Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2727,7 +2740,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Dashboard Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2759,7 +2772,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Floor Mats Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2791,7 +2804,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Doors Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2823,7 +2836,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Front Windscreen Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2855,7 +2868,7 @@
                                                                         <div class="col-md-5">
                                                                             <div class="fault-photo">
                                                                                 <label>Rear Windscreen Fault</label>
-                                                                                <div class="form-group text-center cstm-file-upload mt-3">
+                                                                                <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                     <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                                 </div>
                                                                                 <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -2876,7 +2889,7 @@
 
                                                         <!----------- steps 7 form ---------------->
 
-                                                        <div class="tab-pane" role="tabpanel" id="step7">
+                                                        <!-- <div class="tab-pane" role="tabpanel" id="step7">
                                                             <form action="">
                                                                 <h2 class="text-center">Service History & Manuals</h2>
                                                                 <hr class="mt-5 mb-5">
@@ -3125,7 +3138,7 @@
                                                                     <li><button type="button" class="default-btn next-step">Continue</button></li>
                                                                 </ul>
                                                             </form>
-                                                        </div>
+                                                        </div> -->
 
                                                         <!----------- steps 8 form ---------------->
 
@@ -3138,7 +3151,7 @@
                                                                     <div class="col-md-12">
                                                                         <div class="">
                                                                             <label>Exterior Images</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3165,7 +3178,7 @@
                                                                     <div class="col-md-12">
                                                                         <div class="">
                                                                             <label>Interior Images</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3192,7 +3205,7 @@
                                                                     <div class="col-md-12">
                                                                         <div class="">
                                                                             <label>Engine & Undercarriage Images</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3219,7 +3232,7 @@
                                                                     <div class="col-md-12">
                                                                         <div class="">
                                                                             <label>Vehicle Diagnostic File Upload</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3285,7 +3298,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Frunk Condition Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3333,7 +3346,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Undercarriage Shield Cover Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3373,7 +3386,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Bonnet Holder Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3421,7 +3434,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Fender Liners Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3483,7 +3496,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Radiator Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3541,7 +3554,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Coolant Condition Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3577,7 +3590,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Coolant Cap Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3605,7 +3618,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Hose Damage Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3633,7 +3646,7 @@
                                                                     <div class="col-md-5">
                                                                         <div class="fault-photo">
                                                                             <label>Visible Rust Fault - Photo</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3651,6 +3664,190 @@
                                                             </form>
                                                         </div>
 
+                                                        <!----------- steps 14 form ---------------->
+
+                                                        <div class="tab-pane" role="tabpanel" id="step14">
+                                                            <form action="">
+                                                                <h2 class="text-center">Battery & Components</h2>
+                                                                <hr class="mt-5 mb-5">
+                                                                <div class="row all-info-container">
+
+                                                                    <div class="col-md-12">
+                                                                        <div class="battery_condition">
+                                                                            <ul class="battery_list">
+                                                                                <li>Step 1: <span> Determine the Original (New) Battery Range</span></li>
+                                                                                <li>Step 2:<span> Check the Current Maximum Range</span></li>
+                                                                                <li>Step 3:<span> Calculate the Battery Degradation</span></li>
+                                                                            </ul>
+                                                                            <p>You can use the following formula to calculate the battery health percentage:</p>
+                                                                            <p>Battery Health(%)= Current Maximum Range Divided By Original Maximum Range ×100</p>
+                                                                            
+                                                                        </div>
+                                                                        <div class="battery_range">
+                                                                            <h4>Battery Health</h4>
+                                                                        <div class="range mt-5">
+  <input type="range" name="points" min="0" max="100" value="" class="count">
+  <div class="slice left">
+    <div class="blocker"></div>
+  </div>
+  <div class="slice right">
+    <div class="blocker"></div>
+  </div>
+  <span class="info">
+      <span class="count">0</span>
+      %
+  </span>
+  <div class="dial" tabindex="0"></div>
+</div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-7">
+                                                                     <div class="engine-upper">
+                                                                            <h6>Charging Port</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingport-pass" name="chargingport" id="rb-chargingport-pass" type="radio" checked />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingport-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingport-damage" name="chargingport" id="rb-chargingport-damage" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingport-damage">Physical Damage</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingport-debris" name="chargingport" id="rb-chargingport-debris" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingport-debris">Excess Debris</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingport-faded" name="chargingport" id="rb-chargingport-faded" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingport-faded">Faded</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingport-components" name="chargingport" id="rb-chargingport-components" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingport-components">Charging Cable Damaged</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingport-other" name="chargingport" id="rb-chargingport-other" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingport-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input chargingport-other" id="chargingport-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Charging Port- Photo</label>
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-7">
+                                                                     <div class="engine-upper">
+                                                                            <h6>Charging Feature</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingfeature-pass" name="chargingfeature" id="rb-chargingfeature-pass" type="radio" checked />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingfeature-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingfeature-slow" name="chargingfeature" id="rb-chargingfeature-slow" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingfeature-slow">Charging Slow</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingfeature-not" name="chargingfeature" id="rb-chargingfeature-not" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingfeature-not">Not Charging</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingfeature-inspect" name="chargingfeature" id="rb-chargingfeature-inspect" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingfeature-inspect">Could Not Inspect, No Charger</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-chargingfeature-other" name="chargingfeature" id="rb-chargingfeature-other" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-chargingfeature-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input chargingfeature-other" id="chargingfeature-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Charging Feature Fault - Photo</label>
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5 mb-5">
+
+                                                                    <div class="col-md-12 electric_motor mb-5">
+                                                                            <h6>Electric Motor</h4>
+                                                                            <p>Error Messages: Pay attention to the dashboard for any warning lights or error messages related to the electric motor(s). These indicators can reveal issues with the motor system.
+Driving Test: During a test drive, listen for unusual noises from the motor area and feel for unexpected vibrations or power fluctuations, which could indicate motor issues.</p>
+                                                                            
+                                                                    </div>
+                                                                    <div class="col-md-7">
+                                                                     <div class="engine-upper">
+                                                                            <h6>Electric Motor</h6>
+                                                                            <br>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-electricmotor-pass" name="electricmotor" id="rb-electricmotor-pass" type="radio" checked />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-electricmotor-pass">Pass</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-electricmotor-lights" name="electricmotor" id="rb-electricmotor-lights" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-electricmotor-lights">Dashboard Warning Lights</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-electricmotor-noise" name="electricmotor" id="rb-electricmotor-noise" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-electricmotor-noise">Unusual Noise</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-electricmotor-vibration" name="electricmotor" id="rb-electricmotor-vibration" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-electricmotor-vibration">Vibration</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-electricmotor-test" name="electricmotor" id="rb-electricmotor-test" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-electricmotor-test">Could not test</label>
+                                                                            </div>
+                                                                            <div class="form-check">
+                                                                                <input class="form-check-input rb-electricmotor-other" name="electricmotor" id="rb-electricmotor-other" type="radio" />
+                                                                                <label class="form-check-label label radio-btn-label" for="rb-electricmotor-other">Other</label>
+                                                                                <br>
+                                                                                <input class="cstm-form_input electricmotor-other" id="electricmotor-other" placeholder="Please type another option here" type="text" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5">
+                                                                        <div class="fault-photo">
+                                                                            <label>Electric Motor Fault - Photo</label>
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
+                                                                                <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
+                                                                            </div>
+                                                                            <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr class="mt-5">
+
+                                                                    
+                                                                </div>
+
+                                                                <ul class="list-inline pull-right">
+                                                                    <li><button type="button" class="default-btn prev-step">Back</button></li>
+                                                                    <li><button type="button" class="default-btn next-step">Continue</button></li>
+                                                                </ul>
+                                                            </form>
+                                                        </div>
+                                                        
+
                                                         <!----------- steps 15 form ---------------->
 
                                                         <div class="tab-pane" role="tabpanel" id="step15">
@@ -3662,7 +3859,7 @@
                                                                     <div class="col-md-12">
                                                                         <div class="">
                                                                             <label>Frunk & Trunk Images</label>
-                                                                            <div class="form-group text-center cstm-file-upload mt-3">
+                                                                            <div class="form-group text-center image_upload cstm-file-upload mt-3">
                                                                                 <input type="file" class="cstm-file-upload" name="images[]" multiple id="step2-upload" />
                                                                             </div>
                                                                             <div class="img-thumbs img-thumbs-hidden" id="step2-img-preview"></div>
@@ -3709,13 +3906,26 @@
 
                                                                     <!-- Signature -->
                                                                     <div class="col-md-12 mt-4">
-                                                                        <label for="phone">Signature :</label><br>
-                                                                        <div id="signature">
+                                                                        <div class="cstm_signature">
+
+                                                                           <label for="phone">Signature :</label><br>
+                                                                           <canvas id="signature" width="300" height="120" style="border: 1px solid #ddd;"></canvas>
+                                                                           <br>
+                                                                            <button type="button" id="clear-signature" class="btn-green">Clear</button>
+                                                                         </div>
+
+                                                                        <!-- <div id="signature">
+
+                                                                              <canvas id="signature" width="300" height="150" style="border: 1px solid #ddd;"></canvas>
+                                                                               <br>
+                                                                               <button id="clear-signature">Clear</button>
+
+
                                                                             <canvas width="300" height="100"></canvas>
                                                                             <div class="controls">
                                                                                 <a class="btn-green" href="" id="clearSig">Clear</a>
                                                                             </div>
-                                                                        </div>
+                                                                        </div> -->
                                                                     </div>
 
                                                                     <hr class="mt-5">
@@ -3758,64 +3968,7 @@
     <!-- /Css Include -->
     <script>
         // Here goes your custom javascript
-
-        var color = "#000000";
-        var context = $("canvas")[0].getContext("2d");
-        var canvas = $("canvas");
-        var lastEvent;
-        var mouseDown = false;
-        var weight = "3";
-
-        // //Bind weight val to selection on click
-        var updateWeight = function() {
-            return weight;
-        };
-
-        //Draw on the canvas on mouse events
-        canvas.mousedown(function(e) {
-            lastEvent = e;
-            mousedown = true;
-        }).mousemove(function(e) {
-            if (mousedown) {
-                context.beginPath();
-                context.moveTo(lastEvent.offsetX, lastEvent.offsetY);
-                context.lineTo(e.offsetX, e.offsetY);
-                context.strokeStyle = color;
-                context.lineWidth = updateWeight();
-                context.stroke();
-                lastEvent = e;
-            }
-        }).mouseup(function() {
-            mousedown = false;
-        }).mouseleave(function() {
-            canvas.mouseup();
-        });
-
-        //Download your drawing
-        var downloadImg = function() {
-            var img = canvas[0].toDataURL("image/png");
-            var $imgLink = $("#download").attr("href", img);
-        }
-
-        var clearSig = function() {
-            context.clearRect(0, 0, 300, 200);
-        }
-
-        // Prevent default behavior of the button click event
-        $("#download").click(function(e) {
-            e.preventDefault();
-            downloadImg();
-        });
-
-        $("#clearSig").click(function(e) {
-            e.preventDefault();
-            clearSig();
-        });
-
-
-        // ----------------------------------------------
-
-
+        
         function download(canvas, filename) {
             var lnk = document.createElement('a'),
                 e;
