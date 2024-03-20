@@ -47,7 +47,7 @@
                                         <div class="widget-stats-container d-flex">
                                             <div class="widget-stats-content flex-fill">
                                                 <div class="brand_logo">
-                                                <img class="" src="../assets/images/Car_Arbab.svg" alt="" width="100px">
+                                                    <img class="" src="../assets/images/Car_Arbab.svg" alt="" width="100px">
                                                 </div>
                                                 <h5 class="text-center">Seller Terms of Service:</h5>
                                                 <p class="text-center pb-4">By signing below, you, the seller of the vehicle in this report indemnify Car Arbab and the inspector against any liabilities including damages, costs, and charges made to the vehicle. You agree to indemnify Car Arbab and the inspector of any incidents caused to the vehicle and/or public/3rd party property due to mechanical imperfections in the vehicle.</p>
@@ -74,9 +74,9 @@
                                                             <li role="presentation" class="disabled">
                                                                 <a href="#step6" data-toggle="tab" aria-controls="step6" role="tab"><span class="round-tab">6</span> </a>
                                                             </li>
-                                                            <!-- <li role="presentation" class="disabled">
+                                                            <li role="presentation" class="disabled">
                                                                 <a href="#step7" data-toggle="tab" aria-controls="step7" role="tab"><span class="round-tab">7</span> </a>
-                                                            </li> -->
+                                                            </li>
                                                             <li role="presentation" class="disabled">
                                                                 <a href="#step8" data-toggle="tab" aria-controls="step8" role="tab"><span class="round-tab">8</span> </a>
                                                             </li>
@@ -108,7 +108,7 @@
 
                                                     <div class="tab-content" id="main_form">
 
-                                                    <!----------- steps 1 form ---------------->
+                                                        <!----------- steps 1 form ---------------->
 
                                                         <div class="tab-pane active" role="tabpanel" id="step1">
 
@@ -299,7 +299,7 @@
                                                                                 </div>
                                                                                 <div class="col">
                                                                                     <label for="exampleFormControlSelect1">VIN Number</label>
-                                                                                    <input class="form-control" type="text" maxlength="17" >
+                                                                                    <input class="form-control" type="text" maxlength="17">
                                                                                 </div>
                                                                             </div>
                                                                             <div class="row mt-5">
@@ -2889,13 +2889,13 @@
 
                                                         <!----------- steps 7 form ---------------->
 
-                                                        <!-- <div class="tab-pane" role="tabpanel" id="step7">
+                                                        <div class="tab-pane" role="tabpanel" id="step7">
                                                             <form action="">
                                                                 <h2 class="text-center">Service History & Manuals</h2>
                                                                 <hr class="mt-5 mb-5">
                                                                 <div class="all-info-container">
                                                                     <div class="row">
-                                                                        <div class="col-md-7">
+                                                                        <!-- <div class="col-md-7">
                                                                             <div class="engine-upper">
                                                                                 <h6>Service History</h6>
                                                                                 <br>
@@ -2937,17 +2937,65 @@
 
                                                                             </div>
                                                                         </div>
-                                                                        <hr class="mt-5 mb-5">
+                                                                        <hr class="mt-5 mb-5"> -->
 
                                                                         <div class="col-md-12">
-                                                                            <div class="engine-upper">
+                                                                            <div class="engine-upper exterior-car_condition">
                                                                                 <h6>Exterior & Interior Report</h6>
                                                                                 <br>
-                                                                                <div class="text-center">
+
+                                                                                <div class="lg-container">
+                                                                                    <img class="lg-image" src="https://images.empgautos.com/car-skeleton2.png" height="350" width="360" />
+
+                                                                                    <div style="top: 20%; left: 19.9%;" class="lg-hotspot lg-hotspot--top-left">
+                                                                                        <div class="lg-hotspot__button"></div>
+                                                                                        <div class="lg-hotspot__label">
+                                                                                            <h4>This is the title</h4>
+                                                                                            <p>This is some text that goes in the label. It describes the item. Here is a <a href="/abcretrograde/pens/showcase" target="_blank">link</a> to another page.</p>
+                                                                                            <form>
+                                                                                                <label for="myfile">Select a file:</label>
+                                                                                                <input type="file" id="myfile" name="myfile">
+                                                                                            </form>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div style="top: 25%; left: 88%;" class="lg-hotspot lg-hotspot--top-right">
+                                                                                        <div class="lg-hotspot__button"></div>
+                                                                                        <div class="lg-hotspot__label">
+                                                                                            <h4>Keyboard</h4>
+
+                                                                                            <div class="img-thumbs img-thumbs-hidden" id="img-preview"></div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div style="top: 15.5%; left: 66%;" class="lg-hotspot lg-hotspot--top-right">
+                                                                                        <div class="lg-hotspot__button"></div>
+                                                                                        <div class="lg-hotspot__label">
+                                                                                            <h4>Envelopes</h4>
+                                                                                            <p>These can hold letters, bills, and junk mail.</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div style="top: 62%; left: 15%;" class="lg-hotspot lg-hotspot--bottom-left">
+                                                                                        <div class="lg-hotspot__button"></div>
+                                                                                        <div class="lg-hotspot__label">
+                                                                                            <h4>Coffee</h4>
+                                                                                            <p>Yay coffee!</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div style="top: 85%; left: 73%;" class="lg-hotspot lg-hotspot--bottom-right">
+                                                                                        <div class="lg-hotspot__button"></div>
+                                                                                        <div class="lg-hotspot__label">
+                                                                                            <p>This is a label without a title.</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- <div class="text-center">
                                                                                     <img src="../master/assets/images/Car_Arbab.svg" alt="" class="brand-logo" width="100px">
                                                                                     <h4 class="mt-3">Chassis, Subframe & Internal Damage Report</h4>
                                                                                     <img src="../master/assets/images/chassisdamage.jpg" alt="" class="brand-logo mt-3" width="100%">
-                                                                                </div>
+                                                                                </div> -->
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-md-12 mt-5">
@@ -3138,7 +3186,7 @@
                                                                     <li><button type="button" class="default-btn next-step">Continue</button></li>
                                                                 </ul>
                                                             </form>
-                                                        </div> -->
+                                                        </div>
 
                                                         <!----------- steps 8 form ---------------->
 
@@ -3257,8 +3305,8 @@
                                                                 <h2 class="text-center">Covers & Plastics</h2>
                                                                 <hr class="mt-5 mb-5">
                                                                 <div class="row all-info-container">
-                                                                 <div class="col-md-7">
-                                                                    <div class="engine-upper">
+                                                                    <div class="col-md-7">
+                                                                        <div class="engine-upper">
                                                                             <h6>Frunk Condition</h6>
                                                                             <br>
                                                                             <div class="form-check">
@@ -3307,7 +3355,7 @@
                                                                     <hr class="mt-5 mb-5">
 
                                                                     <div class="col-md-7">
-                                                                     <div class="engine-upper">
+                                                                        <div class="engine-upper">
                                                                             <h6>Undercarriage Shield Cover</h6>
                                                                             <br>
                                                                             <div class="form-check">
@@ -3355,7 +3403,7 @@
                                                                     <hr class="mt-5 mb-5">
 
                                                                     <div class="col-md-7">
-                                                                     <div class="engine-upper">
+                                                                        <div class="engine-upper">
                                                                             <h6>Bonnet Hinge & Holder</h6>
                                                                             <br>
                                                                             <div class="form-check">
@@ -3443,13 +3491,13 @@
                                                                     <hr class="mt-5 mb-5">
 
                                                                     <div class="col-md-12 radiatorinspection mb-5">
-                                                                            <h6>Radiator Inspection</h4>
+                                                                        <h6>Radiator Inspection</h4>
                                                                             <p>Check for Leaks: Visually inspect for any signs of coolant leaks in the vehicle's parking area or under the chassis. Coolant leaks could indicate issues with the cooling system's hoses, connections, or the radiator itself.</p>
                                                                             <p>Inspect Hoses and Connections: Look at the coolant hoses and connections for signs of wear, damage, or corrosion. Make sure all connections are secure.</p>
                                                                     </div>
 
                                                                     <div class="col-md-7">
-                                                                       <div class="engine-uppe radiator">
+                                                                        <div class="engine-uppe radiator">
                                                                             <h6>Radiator</h6>
                                                                             <br>
                                                                             <div class="form-check">
@@ -3505,14 +3553,14 @@
                                                                     <hr class="mt-5 mb-5">
 
                                                                     <div class="col-md-12 coolantelectric mb-3">
-                                                                            <h6>Coolant Level and Condition</h4>
+                                                                        <h6>Coolant Level and Condition</h4>
                                                                             <p>Check Coolant Level: Ensure the coolant reservoir is at the proper level. Low coolant levels might suggest a leak or that the system needs servicing.Examine Coolant Condition: If possible, check the condition of the coolant. It should be clean and free of debris. Contaminated coolant can reduce the efficiency of the cooling system.</p>
-                                                                            
+
                                                                     </div>
                                                                     <div class="col-md-12 coolantelectric mb-5">
-                                                                            <h6>System Operation</h4>
+                                                                        <h6>System Operation</h4>
                                                                             <p>Monitor Temperature Gauges: While driving, keep an eye on any temperature gauges or warnings on the dashboard. Overheating warnings can indicate a malfunctioning cooling system.Listen for Pump Operation: In liquid-cooled systems, the coolant is circulated by electric pumps. Listen for the operation of these pumps to ensure they are working correctly.</p>
-                                                                            
+
                                                                     </div>
                                                                     <div class="col-md-7">
                                                                         <div class="engine-upper coolant-condition">
@@ -3681,30 +3729,30 @@
                                                                             </ul>
                                                                             <p>You can use the following formula to calculate the battery health percentage:</p>
                                                                             <p>Battery Health(%)= Current Maximum Range Divided By Original Maximum Range ×100</p>
-                                                                            
+
                                                                         </div>
                                                                         <div class="battery_range">
                                                                             <h4>Battery Health</h4>
-                                                                        <div class="range mt-5">
-  <input type="range" name="points" min="0" max="100" value="" class="count">
-  <div class="slice left">
-    <div class="blocker"></div>
-  </div>
-  <div class="slice right">
-    <div class="blocker"></div>
-  </div>
-  <span class="info">
-      <span class="count">0</span>
-      %
-  </span>
-  <div class="dial" tabindex="0"></div>
-</div>
+                                                                            <div class="range mt-5">
+                                                                                <input type="range" name="points" min="0" max="100" value="" class="count">
+                                                                                <div class="slice left">
+                                                                                    <div class="blocker"></div>
+                                                                                </div>
+                                                                                <div class="slice right">
+                                                                                    <div class="blocker"></div>
+                                                                                </div>
+                                                                                <span class="info">
+                                                                                    <span class="count">0</span>
+                                                                                    %
+                                                                                </span>
+                                                                                <div class="dial" tabindex="0"></div>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                     <hr class="mt-5 mb-5">
 
                                                                     <div class="col-md-7">
-                                                                     <div class="engine-upper">
+                                                                        <div class="engine-upper">
                                                                             <h6>Charging Port</h6>
                                                                             <br>
                                                                             <div class="form-check">
@@ -3748,7 +3796,7 @@
                                                                     <hr class="mt-5 mb-5">
 
                                                                     <div class="col-md-7">
-                                                                     <div class="engine-upper">
+                                                                        <div class="engine-upper">
                                                                             <h6>Charging Feature</h6>
                                                                             <br>
                                                                             <div class="form-check">
@@ -3788,13 +3836,13 @@
                                                                     <hr class="mt-5 mb-5">
 
                                                                     <div class="col-md-12 electric_motor mb-5">
-                                                                            <h6>Electric Motor</h4>
+                                                                        <h6>Electric Motor</h4>
                                                                             <p>Error Messages: Pay attention to the dashboard for any warning lights or error messages related to the electric motor(s). These indicators can reveal issues with the motor system.
-Driving Test: During a test drive, listen for unusual noises from the motor area and feel for unexpected vibrations or power fluctuations, which could indicate motor issues.</p>
-                                                                            
+                                                                                Driving Test: During a test drive, listen for unusual noises from the motor area and feel for unexpected vibrations or power fluctuations, which could indicate motor issues.</p>
+
                                                                     </div>
                                                                     <div class="col-md-7">
-                                                                     <div class="engine-upper">
+                                                                        <div class="engine-upper">
                                                                             <h6>Electric Motor</h6>
                                                                             <br>
                                                                             <div class="form-check">
@@ -3837,7 +3885,7 @@ Driving Test: During a test drive, listen for unusual noises from the motor area
                                                                     </div>
                                                                     <hr class="mt-5">
 
-                                                                    
+
                                                                 </div>
 
                                                                 <ul class="list-inline pull-right">
@@ -3846,7 +3894,7 @@ Driving Test: During a test drive, listen for unusual noises from the motor area
                                                                 </ul>
                                                             </form>
                                                         </div>
-                                                        
+
 
                                                         <!----------- steps 15 form ---------------->
 
@@ -3881,40 +3929,40 @@ Driving Test: During a test drive, listen for unusual noises from the motor area
                                                         <!----------- step end form ---------------->
 
                                                         <div class="tab-pane" role="tabpanel" id="End">
-                                                          <form action="">
-                                                            <!-- <h5 class="text-center">Exterior Photos</h5>
+                                                            <form action="">
+                                                                <!-- <h5 class="text-center">Exterior Photos</h5>
                                                             <hr class="mt-5 mb-5"> -->
-                                                            <div class="all-info-container">
-                                                                <div class="row">
-                                                                    <div class="col-md-12 mt-5">
-                                                                        <label for="">Vehicle Summary</label>
-                                                                        <div class="vehicle-group">
-                                                                            <!-- <span class="input-group-text">With textarea</span> -->
-                                                                            <textarea class="form-control" aria-label="With textarea" placeholder="What do you think about the car overall? What are the main issues to worry about? How was the test drive? Recommended questions to ask the seller?"></textarea>
+                                                                <div class="all-info-container">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12 mt-5">
+                                                                            <label for="">Vehicle Summary</label>
+                                                                            <div class="vehicle-group">
+                                                                                <!-- <span class="input-group-text">With textarea</span> -->
+                                                                                <textarea class="form-control" aria-label="With textarea" placeholder="What do you think about the car overall? What are the main issues to worry about? How was the test drive? Recommended questions to ask the seller?"></textarea>
+                                                                            </div>
                                                                         </div>
-                                                                    </div>
-                                                                    <hr class="mt-5 mb-5">
+                                                                        <hr class="mt-5 mb-5">
 
-                                                                    <div class="col-md-12">
-                                                                        <label for="">Terms of Service</label>
-                                                                        <div class="terms-group mt-2">
-                                                                            <p>All services from Car Arbab are provided on an "as is, with all defects" and "as available" basis without warranties of any kind, either expressed or implied, including without limitation, warranties of title, non-infringement, or implied warranties of merchantability or fitness for a particular purpose. Nothing in these terms or in any description of products or services in the services shall constitute a representation or warranty with respect to such products or services.</p>
-                                                                            <p>The inspection of the vehicle described in this report is external and we are unable to accept responsibility for failure to identify defects not present or apparent at the time of the inspection. Odometer readings may have been tampered with, although we report any signs that we notice of this happening during inspection. You acknowledge, by your use of the services, that such use is at your sole risk. In the event of dissatisfaction or a complaint, we reserve the right to re-examine the vehicle prior to any rectifications to the vehicle. You agree that Car Arbab liability is limited to refunding the price you pay for the inspection in the event you are dissatisfied with Car Arbab service, or injuries occur due to an unreported defect in the vehicle. All requests should be sent to hello@Cararbab.com within 7 days notice of receiving the report.</p>
-                                                                            <p>in no event shall either Car Arbab or its affiliates or agents be liable for any direct, indirect, punitive, incidental, special or consequential damages arising out of or in any way connected with the use of the services, whether based on contract, tort, strict liability or otherwise, even if advised of the possibility of any such damages.</p>
+                                                                        <div class="col-md-12">
+                                                                            <label for="">Terms of Service</label>
+                                                                            <div class="terms-group mt-2">
+                                                                                <p>All services from Car Arbab are provided on an "as is, with all defects" and "as available" basis without warranties of any kind, either expressed or implied, including without limitation, warranties of title, non-infringement, or implied warranties of merchantability or fitness for a particular purpose. Nothing in these terms or in any description of products or services in the services shall constitute a representation or warranty with respect to such products or services.</p>
+                                                                                <p>The inspection of the vehicle described in this report is external and we are unable to accept responsibility for failure to identify defects not present or apparent at the time of the inspection. Odometer readings may have been tampered with, although we report any signs that we notice of this happening during inspection. You acknowledge, by your use of the services, that such use is at your sole risk. In the event of dissatisfaction or a complaint, we reserve the right to re-examine the vehicle prior to any rectifications to the vehicle. You agree that Car Arbab liability is limited to refunding the price you pay for the inspection in the event you are dissatisfied with Car Arbab service, or injuries occur due to an unreported defect in the vehicle. All requests should be sent to hello@Cararbab.com within 7 days notice of receiving the report.</p>
+                                                                                <p>in no event shall either Car Arbab or its affiliates or agents be liable for any direct, indirect, punitive, incidental, special or consequential damages arising out of or in any way connected with the use of the services, whether based on contract, tort, strict liability or otherwise, even if advised of the possibility of any such damages.</p>
+                                                                            </div>
                                                                         </div>
-                                                                    </div>
 
-                                                                    <!-- Signature -->
-                                                                    <div class="col-md-12 mt-4">
-                                                                        <div class="cstm_signature">
+                                                                        <!-- Signature -->
+                                                                        <div class="col-md-12 mt-4">
+                                                                            <div class="cstm_signature">
 
-                                                                           <label for="phone">Signature :</label><br>
-                                                                           <canvas id="signature" width="300" height="120" style="border: 1px solid #ddd;"></canvas>
-                                                                           <br>
-                                                                            <button type="button" id="clear-signature" class="btn-green">Clear</button>
-                                                                         </div>
+                                                                                <label for="phone">Signature :</label><br>
+                                                                                <canvas id="signature" width="300" height="120" style="border: 1px solid #ddd;"></canvas>
+                                                                                <br>
+                                                                                <button type="button" id="clear-signature" class="btn-green">Clear</button>
+                                                                            </div>
 
-                                                                        <!-- <div id="signature">
+                                                                            <!-- <div id="signature">
 
                                                                               <canvas id="signature" width="300" height="150" style="border: 1px solid #ddd;"></canvas>
                                                                                <br>
@@ -3926,23 +3974,23 @@ Driving Test: During a test drive, listen for unusual noises from the motor area
                                                                                 <a class="btn-green" href="" id="clearSig">Clear</a>
                                                                             </div>
                                                                         </div> -->
+                                                                        </div>
+
+                                                                        <hr class="mt-5">
+
+                                                                        <!-- submit button -->
+                                                                        <div class="col-md-12 text-center my-3">
+                                                                            <button class="btn btn-primary" type="submit">Submit form</button>
+                                                                        </div>
                                                                     </div>
 
-                                                                    <hr class="mt-5">
-
-                                                                    <!-- submit button -->
-                                                                    <div class="col-md-12 text-center my-3">
-                                                                        <button class="btn btn-primary" type="submit">Submit form</button>
-                                                                    </div>
                                                                 </div>
 
-                                                            </div>
-
-                                                            <ul class="list-inline pull-right">
-                                                                <li><button type="button" class="default-btn prev-step">Back</button></li>
-                                                                <li><button type="button" class="default-btn next-step">Finish</button></li>
-                                                            </ul>
-                                                          </form>
+                                                                <ul class="list-inline pull-right">
+                                                                    <li><button type="button" class="default-btn prev-step">Back</button></li>
+                                                                    <li><button type="button" class="default-btn next-step">Finish</button></li>
+                                                                </ul>
+                                                            </form>
                                                         </div>
 
                                                         <div class="clearfix"></div>
@@ -3968,7 +4016,7 @@ Driving Test: During a test drive, listen for unusual noises from the motor area
     <!-- /Css Include -->
     <script>
         // Here goes your custom javascript
-        
+
         function download(canvas, filename) {
             var lnk = document.createElement('a'),
                 e;

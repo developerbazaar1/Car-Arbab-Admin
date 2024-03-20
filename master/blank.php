@@ -212,10 +212,10 @@ body {
       <div class="lg-hotspot__label">
         <h4>This is the title</h4>
         <p>This is some text that goes in the label. It describes the item. Here is a <a href="/abcretrograde/pens/showcase" target="_blank">link</a> to another page.</p>
-        <form>
-  <label for="myfile">Select a file:</label>
-  <input type="file" id="myfile" name="myfile">
-</form>
+           <form>
+              <label for="myfile">Select a file:</label>
+              <input type="file" id="myfile" name="myfile">
+          </form>
       </div>
     </div>
 
